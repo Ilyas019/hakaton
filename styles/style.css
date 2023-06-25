@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Play&family=Roboto+Mono:ital,wght@1,300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Roboto+Mono:ital,wght@1,300&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #1B2223;
+    color: #F4FEFD;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #3A4F50;
+}
+
+.lol {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: .3s;
+}
+
+.lol:hover {
+    background-size: 100% 2px;
+}
+
+.prefixes {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.prefixes_link,
+.manu {
+    padding: 15px;
+    margin: 15px;
+}
+
+.prefixes_link {
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #F4FEFD;
+    font-family: 'Play', sans-serif;
+}
+
+nav.prefixes_link {
+    align-items: center;
+    display: flex;
+}
+
+h2.name {
+    color: #F4FEFD;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+
+}
+
+.manu {
+    font-size: 20px;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 160px;
+    position: absolute;
+    margin-top: -42px;
+}
+
+.logo2 {
+    width: 22px;
+    height: 22px;
+}
+
+#description {
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.lol_text {
+    margin-bottom: 15px;
+    font-size: 39px;
+}
+
+.description_text {
+    margin-top: 70px;
+    font-size: 17px;
+    padding: 30px;
+    font-family: 'Play', sans-serif;
+}
+
+#can {
+    padding: 55px;
+    margin: 55px;
+}
+
+.text-h1 {
+    font-size: 55px;
+}
+
+.text_card {
+    padding: 55px;
+    margin: 55px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 5px solid #F4FEFD;
+
+}
+
+.text_h1 {
+    padding: 10px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.card {
+    width: 360px;
+    padding: 40px;
+    margin: 35px;
+    border-radius: 20px;
+    background-color: #3A4F50;
+    transition: 0.5s;
+    font-size: 16px;
+
+}
+
+.card:hover {
+    box-shadow:
+        1px 1px #000000,
+        2px 2px #000000,
+        3px 3px #000000,
+        4px 4px #000000,
+        5px 5px #000000,
+        6px 6px #000000,
+        7px 7px #000000;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
+
+#novelties {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 45px;
+    margin: 10px;
+
+}
+
+
+
+.photo {
+    width: 500px;
+    margin: 10px;
+    
+}
+
+
+.photo_4 {
+    width: 500px;
+    height: 279px;
+}
+
+.text_p {
+    padding: 10px;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+
+}
+
+.btn:active {
+    transform: translateY(-1px);
+
+}
+
+.btn {
+    background-color: #F4FEFD;
+    color: #000;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.game1 {
+    margin: 100px;
+}
+
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Play', sans-serif;
+}
